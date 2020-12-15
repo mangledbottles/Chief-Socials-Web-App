@@ -46,6 +46,7 @@
           <polygon
             class="fill-default"
             points="2560 0 2560 100 0 100"
+            n
           ></polygon>
         </svg>
       </div>
