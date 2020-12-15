@@ -58,11 +58,7 @@
             Social Media Managment <a class="text-info">Solution</a>
           </h2>
           <p class="lead text-white">
-            Argon is a completly new product built on our newest re-built from
-            scratch framework structure that is meant to make our products more
-            intuitive, more adaptive and, needless to say, so much easier to
-            customize. Let Argon amaze you with its cool features and build
-            tools and get your project to a whole new level.
+            Chief Socials provides social media management services
           </p>
         </b-col>
       </b-row>
