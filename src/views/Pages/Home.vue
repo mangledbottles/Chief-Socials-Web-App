@@ -59,7 +59,9 @@
             Social Media Managment <a class="text-info">Solution</a>
           </h2>
           <p class="lead text-white">
-            Chief Socials provides social media management services
+            Chief Socials provides social media management services such as SMS
+            Phone Verification, 4G LTE Mobile Proxies and Social Media
+            automation tools.
           </p>
         </b-col>
       </b-row>
@@ -75,19 +77,20 @@
                     <div
                       class="icon icon-shape bg-gradient-primary text-white rounded-circle mb-4"
                     >
-                      <i class="ni ni-check-bold"></i>
+                      <i class="fad fa-comment-check"></i>
                     </div>
                     <h4 class="h3 text-primary text-uppercase">
-                      Based on BootstrapVue
+                      Phone Verification (SMS PVA)
                     </h4>
                     <p class="description mt-3">
-                      Argon is built on top of the most popular open source
-                      toolkit for developing with HTML, CSS, and JS.
+                      Large pools containing 1000s of numbers ready to receive
+                      SMS verification codes for TikTok, Instagram, Nike and
+                      more.
                     </p>
                     <div>
-                      <b-badge pill variant="primary">bootstrap-vue</b-badge>
-                      <b-badge pill variant="primary">dashboard</b-badge>
-                      <b-badge pill variant="primary">template</b-badge>
+                      <b-badge pill variant="primary">10+ countries</b-badge>
+                      <b-badge pill variant="primary">1000+ services</b-badge>
+                      <b-badge pill variant="primary">great pricing</b-badge>
                     </div>
                   </b-card-body>
                 </b-card>
@@ -98,20 +101,19 @@
                     <div
                       class="icon icon-shape bg-gradient-success text-white rounded-circle mb-4"
                     >
-                      <i class="ni ni-istanbul"></i>
+                      <i class="fad fa-router"></i>
                     </div>
                     <h4 class="h3 text-success text-uppercase">
-                      Integrated build tools
+                      Mobile Proxies
                     </h4>
                     <p class="description mt-3">
-                      Use Argons's included npm and gulp scripts to compile
-                      source code, run tests, and more with just a few simple
-                      commands.
+                      4G proxy connections assigned from a mobile carrier to a
+                      real-user with carrier and ASN targeting.
                     </p>
                     <div>
-                      <b-badge pill variant="success">npm</b-badge>
-                      <b-badge pill variant="success">gulp</b-badge>
-                      <b-badge pill variant="success">build tools</b-badge>
+                      <b-badge pill variant="success">150mbs</b-badge>
+                      <b-badge pill variant="success">Shoe Websites</b-badge>
+                      <b-badge pill variant="success">unblock websites</b-badge>
                     </div>
                   </b-card-body>
                 </b-card>
@@ -122,20 +124,19 @@
                     <div
                       class="icon icon-shape bg-gradient-warning text-white rounded-circle mb-4"
                     >
-                      <i class="ni ni-planet"></i>
+                      <i class="fa fa-cog fa-spin fa-3x fa-fw"></i>
                     </div>
                     <h4 class="h3 text-warning text-uppercase">
-                      Full Sass support
+                      Automation Tools
                     </h4>
                     <p class="description mt-3">
-                      Argon makes customization easier than ever before. You get
-                      all the tools to make your website building process a
-                      breeze.
+                      Tools designed to automate your management of social media
+                      accounts. Automation tools for TikTok and Instagram!
                     </p>
                     <div>
-                      <b-badge pill variant="warning">sass</b-badge>
-                      <b-badge pill variant="warning">design</b-badge>
-                      <b-badge pill variant="warning">customize</b-badge>
+                      <b-badge pill variant="warning">TikTok</b-badge>
+                      <b-badge pill variant="warning">Instagram</b-badge>
+                      <b-badge pill variant="warning">Nike</b-badge>
                     </div>
                   </b-card-body>
                 </b-card>
@@ -149,27 +150,26 @@
       <b-container>
         <b-row align-v="center" class="row-grid">
           <b-col md="6" class="order-md-2">
-            <b-img src="img/theme/landing-1.png" fluid />
+            <b-img src="img/brand/text_alerts.svg" fluid />
           </b-col>
           <b-col md="6" class="order-md-1">
             <div class="pr-md-5">
-              <h1>Awesome features</h1>
+              <h1>Phone Verification</h1>
               <p>
-                This dashboard comes with super cool features that are meant to
-                help in the process. Handcrafted components, page examples and
-                functional widgets are just a few things you will see and love
-                at first sight.
+                Chief Socials is the leading provider for SMS Phone
+                Verification. We have 1000s of mobile numbers ready to be used
+                for account authenticaiton and 2FA services
               </p>
               <ul class="list-unstyled mt-5">
                 <li class="py-2">
                   <div class="d-flex align-items-center">
                     <div>
                       <b-badge pill variant="success" class="badge-circle mr-3">
-                        <i class="ni ni-settings-gear-65"></i>
+                        <i class="fal fa-phone-plus"></i>
                       </b-badge>
                     </div>
                     <div>
-                      <h4 class="mb-0">Carefully crafted components</h4>
+                      <h4 class="mb-0">All Social Media Websites</h4>
                     </div>
                   </div>
                 </li>
@@ -177,11 +177,11 @@
                   <div class="d-flex align-items-center">
                     <div>
                       <b-badge pill variant="success" class="badge-circle mr-3">
-                        <i class="ni ni-html5"></i>
+                        <i class="fal fa-sack-dollar"></i>
                       </b-badge>
                     </div>
                     <div>
-                      <h4 class="mb-0">Amazing page examples</h4>
+                      <h4 class="mb-0">From €0.03 per verification</h4>
                     </div>
                   </div>
                 </li>
@@ -189,11 +189,13 @@
                   <div class="d-flex align-items-center">
                     <div>
                       <b-badge pill variant="success" class="badge-circle mr-3">
-                        <i class="ni ni-satisfied"></i>
+                        <i class="fal fa-globe-americas"></i>
                       </b-badge>
                     </div>
                     <div>
-                      <h4 class="mb-0">Super friendly support team</h4>
+                      <h4 class="mb-0">
+                        Numbers from USA, UK, China, Russia, China and more
+                      </h4>
                     </div>
                   </div>
                 </li>
@@ -207,20 +209,20 @@
       <b-container>
         <b-row align-v="center" class="row-grid">
           <b-col md="6">
-            <b-img src="img/theme/landing-2.png" fluid />
+            <b-img src="img/brand/animat-cloudsync-color.gif" fluid />
           </b-col>
           <b-col md="6">
             <div class="pr-md-5">
-              <h1>Example pages</h1>
+              <h1>Mobile Proxies</h1>
               <p>
-                If you want to get inspiration or just show something directly
-                to your clients, you can jump start your development with our
-                pre-built example pages.
+                Eradicate account blocks and bottlenecks in social media
+                management by utilising our 4G/LTE mobile proxies. Access shoe
+                sites (Nike) and other sites that easily block normal proxies
               </p>
               <router-link
                 to="/pages/user"
                 class="font-weight-bold text-warning mt-5"
-                >Explore pages</router-link
+                >Learn more</router-link
               >
             </div>
           </b-col>
@@ -231,20 +233,19 @@
       <b-container>
         <b-row align-v="center" class="row-grid">
           <b-col md="6" class="order-md-2">
-            <b-img src="img/theme/landing-3.png" fluid />
+            <b-img src="img/brand/animat-network-color.gif" fluid />
           </b-col>
           <b-col md="6" class="col-md-6">
             <div class="pr-md-5">
-              <h1>Lovable widgets and cards</h1>
+              <h1>Automation Tools</h1>
               <p>
-                We love cards and everybody on the web seems to. We have gone
-                above and beyond with options for you to organise your
-                information. From cards designed for content, to pricing cards
-                or user profiles, you will have many options to choose from.
+                Automatically manage Instagram and TikTok accounts using our
+                automation tools! We also have tools to test proxies, format
+                accounts, fetch emails and more.
               </p>
               <router-link to="/widgets" class="font-weight-bold text-info mt-5"
-                >Explore widgets</router-link
-              >
+                >Learn more
+              </router-link>
             </div>
           </b-col>
         </b-row>
