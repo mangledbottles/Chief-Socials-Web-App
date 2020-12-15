@@ -1,5 +1,5 @@
 {
-  "name": "bootstrap-vue-argon-dashboard-pro",
+  "name": "chief-socials-application",
   "version": "1.0.0",
   "private": true,
   "scripts": {
@@ -9,6 +9,8 @@
     "dev": "npm run serve"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.32",
+    "@fortawesome/vue-fontawesome": "^3.0.0-3",
     "@fullcalendar/core": "^4.0.2",
     "@fullcalendar/daygrid": "^4.0.1",
     "@fullcalendar/interaction": "^4.0.2",
@@ -58,6 +60,5 @@
     "last 2 versions",
     "not ie <= 10"
   ],
-  "author": "Creative Tim - https://www.creative-tim.com/",
-  "description": "BootstrapVue Argon Dashboard PRO"
+  "author": "contact@dermotobrien.me"
 }

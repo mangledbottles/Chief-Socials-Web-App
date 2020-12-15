@@ -4,52 +4,52 @@ import AuthLayout from '@/views/Pages/AuthLayout.vue';
 import NotFound from '@/views/GeneralViews/NotFoundPage.vue';
 
 // Calendar
-const Calendar = () => import(/* webpackChunkName: "extra" */ '@/views/Calendar/Calendar.vue');
+const Calendar = () => import( /* webpackChunkName: "extra" */ '@/views/Calendar/Calendar.vue');
 // Charts
-const Charts = () => import(/* webpackChunkName: "dashboard" */ '@/views/Charts.vue');
+const Charts = () => import( /* webpackChunkName: "dashboard" */ '@/views/Charts.vue');
 
 // Components pages
-const Buttons = () => import(/* webpackChunkName: "components" */ '@/views/Components/Buttons.vue');
-const Cards = () => import(/* webpackChunkName: "components" */ '@/views/Components/Cards.vue');
-const GridSystem = () => import(/* webpackChunkName: "components" */ '@/views/Components/GridSystem.vue');
-const Notifications = () => import(/* webpackChunkName: "components" */ '@/views/Components/Notifications.vue');
-const Icons = () => import(/* webpackChunkName: "components" */ '@/views/Components/Icons.vue');
-const Typography = () => import(/* webpackChunkName: "components" */ '@/views/Components/Typography.vue');
+const Buttons = () => import( /* webpackChunkName: "components" */ '@/views/Components/Buttons.vue');
+const Cards = () => import( /* webpackChunkName: "components" */ '@/views/Components/Cards.vue');
+const GridSystem = () => import( /* webpackChunkName: "components" */ '@/views/Components/GridSystem.vue');
+const Notifications = () => import( /* webpackChunkName: "components" */ '@/views/Components/Notifications.vue');
+const Icons = () => import( /* webpackChunkName: "components" */ '@/views/Components/Icons.vue');
+const Typography = () => import( /* webpackChunkName: "components" */ '@/views/Components/Typography.vue');
 
 // Dashboard pages
-const Dashboard = () => import(/* webpackChunkName: "dashboard" */ '@/views/Dashboard/Dashboard.vue');
-const AlternativeDashboard = () => import(/* webpackChunkName: "dashboard" */ '@/views/Dashboard/AlternativeDashboard.vue');
-const Widgets = () => import(/* webpackChunkName: "dashboard" */ '@/views/Widgets.vue');
+const Dashboard = () => import( /* webpackChunkName: "dashboard" */ '@/views/Dashboard/Dashboard.vue');
+const AlternativeDashboard = () => import( /* webpackChunkName: "dashboard" */ '@/views/Dashboard/AlternativeDashboard.vue');
+const Widgets = () => import( /* webpackChunkName: "dashboard" */ '@/views/Widgets.vue');
 
 // Forms pages
-const FormElements = () => import(/* webpackChunkName: "forms" */ '@/views/Forms/FormElements.vue');
-const FormComponents = () => import(/* webpackChunkName: "forms" */ '@/views/Forms/FormComponents.vue');
-const FormValidation = () => import(/* webpackChunkName: "forms" */ '@/views/Forms/FormValidation.vue');
+const FormElements = () => import( /* webpackChunkName: "forms" */ '@/views/Forms/FormElements.vue');
+const FormComponents = () => import( /* webpackChunkName: "forms" */ '@/views/Forms/FormComponents.vue');
+const FormValidation = () => import( /* webpackChunkName: "forms" */ '@/views/Forms/FormValidation.vue');
 
 // Maps pages
-const GoogleMaps = () => import(/* webpackChunkName: "extra" */ '@/views/Maps/GoogleMaps.vue');
-const VectorMaps = () => import(/* webpackChunkName: "extra" */ '@/views/Maps/VectorMaps.vue');
+const GoogleMaps = () => import( /* webpackChunkName: "extra" */ '@/views/Maps/GoogleMaps.vue');
+const VectorMaps = () => import( /* webpackChunkName: "extra" */ '@/views/Maps/VectorMaps.vue');
 
 // Pages
-const User = () => import(/* webpackChunkName: "pages" */ '@/views/Pages/UserProfile.vue');
-const Pricing = () => import(/* webpackChunkName: "pages" */ '@/views/Pages/Pricing.vue');
-const TimeLine = () => import(/* webpackChunkName: "pages" */ '@/views/Pages/TimeLinePage.vue');
-const Login = () => import(/* webpackChunkName: "pages" */ '@/views/Pages/Login.vue');
-const Home = () => import(/* webpackChunkName: "pages" */ '@/views/Pages/Home.vue');
-const Register = () => import(/* webpackChunkName: "pages" */ '@/views/Pages/Register.vue');
-const Lock = () => import(/* webpackChunkName: "pages" */ '@/views/Pages/Lock.vue');
+const User = () => import( /* webpackChunkName: "pages" */ '@/views/Pages/UserProfile.vue');
+const Pricing = () => import( /* webpackChunkName: "pages" */ '@/views/Pages/Pricing.vue');
+const TimeLine = () => import( /* webpackChunkName: "pages" */ '@/views/Pages/TimeLinePage.vue');
+const Login = () => import( /* webpackChunkName: "pages" */ '@/views/Pages/Login.vue');
+const Home = () => import( /* webpackChunkName: "pages" */ '@/views/Pages/Home.vue');
+const Register = () => import( /* webpackChunkName: "pages" */ '@/views/Pages/Register.vue');
+const Lock = () => import( /* webpackChunkName: "pages" */ '@/views/Pages/Lock.vue');
 
 // TableList pages
-const RegularTables = () => import(/* webpackChunkName: "tables" */ '@/views/Tables/RegularTables.vue');
-const SortableTables = () => import(/* webpackChunkName: "tables" */ '@/views/Tables/SortableTables.vue');
-const PaginatedTables = () => import(/* webpackChunkName: "tables" */ '@/views/Tables/PaginatedTables.vue');
+const RegularTables = () => import( /* webpackChunkName: "tables" */ '@/views/Tables/RegularTables.vue');
+const SortableTables = () => import( /* webpackChunkName: "tables" */ '@/views/Tables/SortableTables.vue');
+const PaginatedTables = () => import( /* webpackChunkName: "tables" */ '@/views/Tables/PaginatedTables.vue');
+
 let componentsMenu = {
   path: '/components',
   component: DashboardLayout,
   redirect: '/components/buttons',
   name: 'Components',
-  children: [
-    {
+  children: [{
       path: 'buttons',
       name: 'Buttons',
       component: Buttons
@@ -86,21 +86,20 @@ let formsMenu = {
   component: DashboardLayout,
   redirect: '/forms/elements',
   name: 'Forms',
-  children: [
-    {
+  children: [{
       path: 'elements',
       name: 'Form elements',
-      component:  FormElements
+      component: FormElements
     },
     {
       path: 'components',
       name: 'Form components',
-      component:  FormComponents
+      component: FormComponents
     },
     {
       path: 'validation',
       name: 'Form validation',
-      component:  FormValidation
+      component: FormValidation
     }
   ]
 };
@@ -110,8 +109,7 @@ let tablesMenu = {
   component: DashboardLayout,
   redirect: '/table/regular',
   name: 'Tables menu',
-  children: [
-    {
+  children: [{
       path: 'regular',
       name: 'Tables',
       component: RegularTables
@@ -134,8 +132,7 @@ let mapsMenu = {
   component: DashboardLayout,
   name: 'Maps',
   redirect: '/maps/google',
-  children: [
-    {
+  children: [{
       path: 'google',
       name: 'Google Maps',
       component: GoogleMaps
@@ -153,8 +150,7 @@ let pagesMenu = {
   component: DashboardLayout,
   name: 'Pages',
   redirect: '/pages/user',
-  children: [
-    {
+  children: [{
       path: 'user',
       name: 'User Page',
       component: User
@@ -171,8 +167,7 @@ let authPages = {
   path: '/',
   component: AuthLayout,
   name: 'Authentication',
-  children: [
-    {
+  children: [{
       path: '/home',
       name: 'Home',
       component: Home,
@@ -200,12 +195,14 @@ let authPages = {
       name: 'Lock',
       component: Lock
     },
-    { path: '*', component: NotFound }
+    {
+      path: '*',
+      component: NotFound
+    }
   ]
 };
 
-const routes = [
-  {
+const routes = [{
     path: '/',
     redirect: '/home',
     name: 'Home'
@@ -220,8 +217,7 @@ const routes = [
     component: DashboardLayout,
     redirect: '/dashboard',
     name: 'Dashboard layout',
-    children: [
-      {
+    children: [{
         path: 'dashboard',
         name: 'Dashboard',
         component: Dashboard
