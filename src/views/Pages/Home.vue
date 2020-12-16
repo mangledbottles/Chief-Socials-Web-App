@@ -18,11 +18,9 @@
                   <router-link to="/dashboard" class="btn btn-neutral my-2"
                     >Explore Services</router-link
                   >
-                  <a
-                    href="https://www.creative-tim.com/product/bootstrap-vue-argon-dashboard-pro?ref=bvadp-index-page"
-                    class="btn btn-primary my-2"
-                    ><i class="fad fa-rocket"></i> Get Started</a
-                  >
+                  <router-link to="/register" class="btn btn-primary my-2">
+                    <i class="fad fa-rocket"></i> Get Started
+                  </router-link>
                 </div>
               </div>
             </b-col>
